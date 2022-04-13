@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  get-started:
+    image: docker/getting-started
+    ports:
+      - 80:80
+
+# docker run -dp 80:80 docker/getting-started
